@@ -1,0 +1,14 @@
+
+.active-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.active--show{
+  color: rgb(4, 0, 255);
+}
+.active--show:active{
+  color: aqua;
+}

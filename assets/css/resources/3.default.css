@@ -1,0 +1,14 @@
+.default--div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.default--i:default {
+  box-shadow: 0 0 2px 1px rgb(248, 156, 123);
+}
+
+.default--i:default + .default--l {
+  color: coral;
+}

@@ -1,0 +1,16 @@
+.fl--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.fl--div p{
+  width: 200px;
+  min-height: 40px;
+}
+.fl--div p::first-line{
+  color: rgb(238, 205, 15);
+}

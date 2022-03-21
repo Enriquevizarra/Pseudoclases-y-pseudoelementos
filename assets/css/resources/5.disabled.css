@@ -1,0 +1,15 @@
+
+.disabled--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.d--button:disabled{
+  opacity: 0.6;
+  cursor: default;
+  background-color: var(--gray-200);
+}

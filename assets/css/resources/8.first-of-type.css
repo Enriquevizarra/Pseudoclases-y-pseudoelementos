@@ -1,0 +1,12 @@
+.ft--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+  background-color: rgb(245, 165, 165);
+}
+.ft--div :first-of-type{
+  background-color:  aqua;
+}

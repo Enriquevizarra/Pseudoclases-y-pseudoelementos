@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container-lg title">
+      <h1>
+        Pseudo-Clases y Psudo-Elementos
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-lg container-main">
+      <section class="cards">
+        <h3>Pseudo-clases</h3>
+        <p>
+          Es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado, ejemplo:
+          <strong>"selector : palabra clave"</strong>.
+        </p>
+        <p>
+          Al igual que las clases, se pueden concatenar la cantidad de pseudoclases que se deseen en un selector<strong>"selector : palabra clave,:palabra clave"</strong>.
+        </p>
+
+        <div>
+          <h4>Aqui tenemos algunas pseudo clases</h4>
+          <ul>
+            <!-- active  -->
+            <div class="word-key">
+              <li><a href="./1-1-active.html">:active</a></li>
+              <p>representa un elemento (como un botón) que el usuario está activando.
+              se usa comúnmente en los elementos <strong>a</strong> y <strong>button</strong>, pero también se puede usar en otros elementos.
+              </p>
+            </div>
+            <!-- checked  -->
+            <div class="word-key">
+              <li><a href="./1-2-cheked.html">:checked</a></li>
+              <p>representa cualquier radio <strong>input type="radio"</strong>, checkbox <strong>input type="checkbox"</strong> u option <strong> en un elemento select </strong> que está marcado o conmutado a un estado on.</p>
+            </div>
+            <!-- default  -->
+            <div class="word-key">
+              <li><a href="./1-3-default.html">:default</a></li>
+              <p>representa cualquier elemento de formulario que sea el predeterminado entre un grupo de elementos relacionados.
+               Este selector se puede usar en los elementos <strong>button</strong>, <strong>input type="checkbox</strong>, <strong>input type="radio</strong> y <strong>option</strong>.
+            </div>
+            <!-- dir  -->
+            <div class="word-key">
+              <li><a href="./1-4-dir.html">:dir</a></li>
+              <p>usa solo el valor semántico de la direccionalidad, es decir, el definido en el documento mismo. No tiene en cuenta la direccionalidad del estilo, es decir, la direccionalidad establecida por las propiedades de CSS como direction.
+            </div>
+            <!-- disabled  -->
+            <div class="word-key">
+              <li><a href="./1-5-disabled.html">:disabled</a></li>
+              <p>Representa a cualquier elemento deshabilitado. Un elemento se encuentra deshabilitado si no puede ser activado (por ejemplo ser selecionado, hacer click en él o aceptar texto de entrada) ni aceptar el foco. El elemento tiene además un estado habilitado en el cual puede ser activado o recibir foco.
+            </div>
+            <!-- empty  -->
+            <div class="word-key">
+              <li><a href="./1-6-empty.html">:empty</a></li>
+              <p>Representa cualquier elemento que no tenga hijos. Los hijos pueden ser nodos de elemento o texto (incluido el espacio en blanco). Los comentarios o las instrucciones de procesamiento no afectan si un elemento se considera vacío.
+            </div>
+            <!-- first-child  -->
+            <div class="word-key">
+              <li><a href="./1-7-first.child.html">:first-child</a></li>
+              <p>Representa el primer elemento entre un grupo de elementos hermanos.
+            </div>
+            <!-- :first-of-type  -->
+            <div class="word-key">
+              <li><a href="./1-8-first-of-type.html">:first-of-type</a></li>
+              <p>Representa el primer elemento de su tipo entre un grupo de elementos hermanos.
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cards">
+        <h3>Pseudo-Elementos</h3>
+        <p>
+          Es una palabra clave que se añade a los selectores y que permiten añadir estilos a una parte concreta del documento.
+          <strong>"selector :: palabra clave"</strong>.
+        </p>
+        <p>
+          Solo se puede usar un pseudo-elemento por selector. Debe aparecer después del selector simple.
+        </p>
+
+        <div>
+          <h4>Aqui tenemos algunos pseudo-Elementos</h4>
+          <ul>
+            <!-- after  -->
+            <div class="word-key">
+              <li><a href="./2-1-after.html">::after</a></li>
+              <p>crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma predeterminada.
+              </p>
+            </div>
+            <!-- before  -->
+            <div class="word-key">
+              <li><a href="./2-2-before.html">::before</a></li>
+              <p>Crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.
+              </p>
+            </div>
+            <!-- first-letter  -->
+            <div class="word-key">
+              <li><a href="./2-3-first-letter.html">::first-letter</a></li>
+              <p>Aplica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es precedido de otro contenido (como imágenes o tablas).
+              </p>
+            </div>
+            <!-- first-line  -->
+            <div class="word-key">
+              <li><a href="./2-4-first-line.html">::first-line</a></li>
+              <p>Aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto.
+              </p>
+            </div>
+            <!-- marker  -->
+            <div class="word-key">
+              <li><a href="./2-5-marker.html">::first-marker</a></li>
+              <p>Selecciona la caja de marcadores de un elemento de la lista, que normalmente contiene una viñeta o un número. Funciona en cualquier elemento o pseudo-elemento configurado para display: list-item, como el elemento <strong>li</strong> y <strong>summary</strong>.
+              </p>
+            </div>
+            <!-- place holder  -->
+            <div class="word-key">
+              <li><a href="./2-6-placeh.html">::first-place holder</a></li>
+              <p>Representa el texto provisional en un elemento <strong>input</strong> o un elemento <strong>textarea</strong>.
+              </p>
+            </div>
+           
+            </div>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+
+
+</body>
+</html>

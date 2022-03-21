@@ -1,0 +1,22 @@
+
+/* pseudoclases  */
+@import url("./resources/1.active.css");
+@import url("./resources/2.checked.css");
+@import url("./resources/3.default.css");
+@import url("./resources/4.dir.css");
+@import url("./resources/5.disabled.css");
+@import url("./resources/6.empty.css");
+@import url("./resources/7.first-child.css");
+@import url("./resources/8.first-of-type.css");
+
+
+
+
+/* pseudo-elementos  */
+
+@import url("./resourcesE/1.after.css");
+@import url("./resourcesE/2.before.css");
+@import url("./resourcesE/3.first-letter.css");
+@import url("./resourcesE/4.first-line.css");
+@import url("./resourcesE/5.marker.css");
+@import url("./resourcesE/6.placeh.css");

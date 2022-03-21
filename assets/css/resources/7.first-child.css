@@ -1,0 +1,15 @@
+.fc--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+.fc--section-1{
+  background-color: rgb(241, 107, 107);
+}
+.fc--section-1  :first-child{
+background-color: aqua;
+}
+

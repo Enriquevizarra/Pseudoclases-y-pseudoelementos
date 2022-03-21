@@ -1,0 +1,13 @@
+.marker--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.marker--div ::marker{
+  color: blueviolet;
+  font-size: 25px;
+}

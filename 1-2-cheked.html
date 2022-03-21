@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container--checked">
+    <div class="checked--div--1">
+      <div class="checked--2">
+        <input type="radio" name="my-input" id="yes" class="i--checked">
+        <label for="yes" class="label--checked">Yes</label>
+      
+        <input type="radio" name="my-input" id="no" class="i--checked">
+        <label for="no">No</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" name="my-checkbox" id="opt-in" class="i--checked">
+        <label for="opt-in">Check me!</label>
+      </div>
+      
+      <select name="my-select" id="fruit" >
+        <option value="opt1" class="checked--o">Apples</option>
+        <option value="opt2" class="checked--o">Grapes</option>
+        <option value="opt3" class="checked--o">Pears</option>
+      </select>
+  </div>
+
+
+  <div>
+    <input type="checkbox" id="expand-toggle" />
+
+    <table>
+      <thead>
+        <tr><th>Columna #1</th><th>Columna #2</th><th>Columna #3</th></tr>
+      </thead>
+      <tbody>
+        <tr class="expandable"><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+        <tr><td>[cell text]</td><td>[cell text]</td><td>[cell text]</td></tr>
+        <tr><td>[cell text]</td><td>[cell text]</td><td>[cell text]</td></tr>
+        <tr class="expandable"><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+        <tr class="expandable"><td>[more text]</td><td>[more text]</td><td>[more text]</td></tr>
+      </tbody>
+    </table>
+
+    <label for="expand-toggle" id="expand-btn">Toggle hidden rows</label>
+    
+  </div>
+  </div>
+</body>
+</html>

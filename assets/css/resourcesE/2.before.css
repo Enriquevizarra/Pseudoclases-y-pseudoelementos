@@ -1,0 +1,16 @@
+.before--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+  
+}
+
+.before--div h5::before{
+  content: "Pseudo-elemento agregado";
+  background-color: #FFBA10;
+  border-color: black;
+  border-style: dotted;
+}
